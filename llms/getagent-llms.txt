@@ -1,0 +1,16 @@
+# GetAgent
+
+> GetAgent is a UK PropTech company (getagent.co.uk) that helps home sellers compare and choose estate agents using independent performance data such as sold prices, time-to-sell, and fees. Backed by 500 Global and Seedcamp. Profiled in the API Evangelist network as a portfolio lead; no public API or developer portal was discoverable at profiling time.
+
+## Company
+- [GetAgent website](https://getagent.co.uk): Consumer estate-agent comparison service.
+
+## API Evangelist profile
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/getagent/refs/heads/main/apis.yml): Machine-readable network profile for GetAgent.
+
+## Signals
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/getagent/refs/heads/main/security/getagent-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture for getagent.co.uk.
+
+## Notes
+- No public API, OpenAPI/AsyncAPI specification, SDK, MCP server, or developer documentation was discoverable during enrichment.
+- The production site is served behind a bot-protection checkpoint, so automated crawling of developer/legal/pricing pages was not possible in this pass.

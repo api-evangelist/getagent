@@ -1,8 +1,26 @@
 aid: getagent
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/getagent.png
 name: Getagent
-description: Getagent is a company surfaced as a portfolio company of 500-global, seedcamp and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  GetAgent is a UK PropTech company operating getagent.co.uk, a consumer-facing
+  service that helps home sellers compare and choose estate agents based on
+  independent performance data such as sold prices, time-to-sell, and fees.
+  Surfaced as a portfolio company of 500 Global and Seedcamp, it was added to the
+  API Evangelist network as a lead for enrichment. No public developer portal,
+  API, or specification surface was discoverable at the time of this pass; the
+  production site is served behind a bot-protection checkpoint, so this profile
+  currently carries identity and domain-security signals only.
 url: https://raw.githubusercontent.com/api-evangelist/getagent/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- PropTech
+- Real Estate
+- Estate Agents
+- Property
+- Comparison
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/getagent-domain-security.yml
+- type: LLMsTxt
+  url: llms/getagent-llms.txt
 - type: Website
   url: https://getagent.co.uk
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
