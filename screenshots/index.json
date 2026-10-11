@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "getagent",
+    "captured_at": "2026-10-11T185812",
+    "source_url": "https://getagent.co.uk",
+    "source_type": "Website",
+    "file": "getagent-2026-10-11T185812.png",
+    "bytes": 132708,
+    "capture": "playwright-local"
+  }
+]
